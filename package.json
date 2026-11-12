@@ -1,0 +1,16 @@
+{
+  "name": "gkd-one-link-validation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "@gkd-kit/selector": "0.6.1",
+    "@gkd-kit/tools": "0.8.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "key": "lin",
+      "name": "Lin-arm 主规则",
+      "repository": "Lin-arm/GKD_subscription",
+      "ref": "main",
+      "url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/main/dist/gkd.json5",
+      "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
+      "redistribution_approved": true,
+      "authorization_record": "licenses/Lin-arm-permission.md"
+    },
+    {
+      "key": "ao",
+      "name": "奥怪",
+      "repository": "aoguai/subscription",
+      "ref": "custom",
+      "url": "https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5",
+      "license": "GPL-3.0-only",
+      "redistribution_approved": true,
+      "archive_source": true
+    },
+    {
+      "key": "gan",
+      "name": "甘霖",
+      "repository": "ganlinte/GKD-subscription",
+      "ref": "main",
+      "url": "https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5",
+      "license": "MIT",
+      "redistribution_approved": true
+    },
+    {
+      "key": "meng",
+      "name": "梦念逍遥",
+      "repository": "MengNianxiaoyao/gkd-subscription",
+      "ref": "main",
+      "url": "https://raw.githubusercontent.com/MengNianxiaoyao/gkd-subscription/main/dist/gkd.json5",
+      "license": "MIT",
+      "redistribution_approved": true
+    }
+  ]
+}
+

@@ -1,0 +1,71 @@
+name: Update GKD subscription
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 19:23 UTC / 03:23 China Standard Time.
+    - cron: '23 19 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'sources.json'
+      - 'requirements.txt'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'licenses/**'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gkd-subscription-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install parser
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install official GKD validators
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Test merge and failure preservation
+        run: python -m unittest discover -s tests -v
+      - name: Download, validate and merge all sources
+        run: python scripts/merge.py --config sources.json --output-dir dist
+      - name: Validate using official GKD tools and selector compiler
+        run: node scripts/validate.mjs dist/gkd.json5
+      - name: Publish complete validated update
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- dist
+          if git diff --cached --quiet; then
+            echo 'No upstream changes; subscription version is unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: update merged GKD subscription'
+          git push origin HEAD:main
+
