@@ -1,7 +1,7 @@
 {
   "subscription_id": 199427417,
-  "version": 3,
-  "payload_sha256": "94f4f9058d261dd591a5067e947865510f727b71255f8c3e85f9d9076c8500e5",
+  "version": 4,
+  "payload_sha256": "4ae323bbc6221e257fb62faca969bd9ff54669e0a73bd53d3a172853995ad12f",
   "policy": "First source wins each complete app; only the first source supplies global groups; category names are unioned in priority order.",
   "sources": [
     {
@@ -12,16 +12,16 @@
       "ref": "main",
       "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
       "authorization_record": "licenses/Lin-arm-permission.md",
-      "commit_sha": "870f1a00d4fba4dd94f74a9c78d03e2b37ec00e6",
-      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/870f1a00d4fba4dd94f74a9c78d03e2b37ec00e6/dist/gkd.json5",
+      "commit_sha": "63efa82a1eb940ef7ff3c7a266634546af11c3be",
+      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/63efa82a1eb940ef7ff3c7a266634546af11c3be/dist/gkd.json5",
       "corresponding_source_archive": null,
       "archive_sha256": null,
       "upstream_id": 667,
-      "upstream_version": 633,
-      "sha256": "d5b2d6da890be0a7e3c6cc1f79387f03cbb38bfd6bfed9712ecca58b93eeb23c",
-      "app_count": 1003,
+      "upstream_version": 635,
+      "sha256": "a87ab5883f107562dfa53d0ef5f3dcfd8ef1e3b2aae62a08da5bd668f26d099b",
+      "app_count": 1004,
       "global_group_count": 3,
-      "contributed_apps": 1003,
+      "contributed_apps": 1004,
       "skipped_apps": 0
     },
     {
@@ -469,6 +469,7 @@
     "com.heytap.reader": "lin",
     "com.heytap.themestore": "lin",
     "com.hichip.campro": "lin",
+    "com.hihonor.android.launcher": "lin",
     "com.hihonor.android.pushagent": "lin",
     "com.hihonor.android.thememanager": "lin",
     "com.hihonor.android.totemweather": "lin",
@@ -1146,8 +1147,8 @@
     "zhongxinjiantou.szkingdom.android.newphone": "lin",
     "zte.com.market": "lin"
   },
-  "app_count": 1062,
-  "app_group_count": 2576,
+  "app_count": 1063,
+  "app_group_count": 2583,
   "global_group_count": 3,
   "warnings": [
     "gan.apps[com.kuangxiangciweimao.novel].groups[key=5].rules[0]: missing actionCdKey [2]; preserved upstream behavior",
