@@ -1,7 +1,7 @@
 {
   "subscription_id": 199427417,
-  "version": 4,
-  "payload_sha256": "4ae323bbc6221e257fb62faca969bd9ff54669e0a73bd53d3a172853995ad12f",
+  "version": 5,
+  "payload_sha256": "1f0ebdad6658c2db6d887f1206b8ad8232a83b66a479e8107e361f8199203749",
   "policy": "First source wins each complete app; only the first source supplies global groups; category names are unioned in priority order.",
   "sources": [
     {
@@ -12,16 +12,16 @@
       "ref": "main",
       "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
       "authorization_record": "licenses/Lin-arm-permission.md",
-      "commit_sha": "63efa82a1eb940ef7ff3c7a266634546af11c3be",
-      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/63efa82a1eb940ef7ff3c7a266634546af11c3be/dist/gkd.json5",
+      "commit_sha": "1b868439cf42dfc09f6bc63d2719d543b668f24f",
+      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/1b868439cf42dfc09f6bc63d2719d543b668f24f/dist/gkd.json5",
       "corresponding_source_archive": null,
       "archive_sha256": null,
       "upstream_id": 667,
-      "upstream_version": 635,
-      "sha256": "a87ab5883f107562dfa53d0ef5f3dcfd8ef1e3b2aae62a08da5bd668f26d099b",
-      "app_count": 1004,
+      "upstream_version": 636,
+      "sha256": "010853167c16a5db4cb0b42b04572ca7a3af6441b9d69339e3a40278e2f73cbe",
+      "app_count": 1006,
       "global_group_count": 3,
-      "contributed_apps": 1004,
+      "contributed_apps": 1006,
       "skipped_apps": 0
     },
     {
@@ -59,8 +59,8 @@
       "sha256": "5624137f8c70566a8dc985990dd18571600efa1c76129734703533ca5ee71c23",
       "app_count": 610,
       "global_group_count": 3,
-      "contributed_apps": 52,
-      "skipped_apps": 558
+      "contributed_apps": 51,
+      "skipped_apps": 559
     },
     {
       "key": "meng",
@@ -489,6 +489,7 @@
     "com.hlg.daydaytobusiness": "gan",
     "com.hnjiajie.zhixiaole": "lin",
     "com.hnnx.pmbank": "gan",
+    "com.hongjing.avmini": "lin",
     "com.hose.ekuaibao": "lin",
     "com.hpbr.bosszhipin": "lin",
     "com.hpbr.directhires": "gan",
@@ -687,7 +688,7 @@
     "com.nasoft.socmark": "lin",
     "com.ncatC200000V260710.T000218": "lin",
     "com.netease.android.cloudgame": "lin",
-    "com.netease.buff": "gan",
+    "com.netease.buff": "lin",
     "com.netease.cloudmusic": "lin",
     "com.netease.gl": "lin",
     "com.netease.mail": "lin",
@@ -1147,8 +1148,8 @@
     "zhongxinjiantou.szkingdom.android.newphone": "lin",
     "zte.com.market": "lin"
   },
-  "app_count": 1063,
-  "app_group_count": 2583,
+  "app_count": 1064,
+  "app_group_count": 2586,
   "global_group_count": 3,
   "warnings": [
     "gan.apps[com.kuangxiangciweimao.novel].groups[key=5].rules[0]: missing actionCdKey [2]; preserved upstream behavior",
