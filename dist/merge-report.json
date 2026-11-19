@@ -1,7 +1,7 @@
 {
   "subscription_id": 199427417,
-  "version": 6,
-  "payload_sha256": "ac7d15e9e738dc490359ca0092907276c2d87d9cd55b7e6515dde38da8b584c0",
+  "version": 7,
+  "payload_sha256": "30200f63022dedd70dc41dfed745cd72ca16921cc9078f71eabe4a7e1720f75f",
   "policy": "First source wins each complete app; only the first source supplies global groups; category names are unioned in priority order.",
   "sources": [
     {
@@ -12,13 +12,13 @@
       "ref": "main",
       "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
       "authorization_record": "licenses/Lin-arm-permission.md",
-      "commit_sha": "0bef241654eabd8640d0bb306403ae0a948d9cef",
-      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/0bef241654eabd8640d0bb306403ae0a948d9cef/dist/gkd.json5",
+      "commit_sha": "66fd75bd0fb143da80ae0262f0ce95871e69dcc0",
+      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/66fd75bd0fb143da80ae0262f0ce95871e69dcc0/dist/gkd.json5",
       "corresponding_source_archive": null,
       "archive_sha256": null,
       "upstream_id": 667,
-      "upstream_version": 637,
-      "sha256": "8b74e3bbde89979ec20ec0e0e7165b78ff231acf34557d5dcc306d9ce6729bfa",
+      "upstream_version": 638,
+      "sha256": "f7ea8546d71fc3c513c5c7e65f4c8bed42145b5fe40df4e12ec761a0b2e8897b",
       "app_count": 1006,
       "global_group_count": 3,
       "contributed_apps": 1006,
