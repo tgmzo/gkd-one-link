@@ -1,7 +1,7 @@
 {
   "subscription_id": 199427417,
-  "version": 8,
-  "payload_sha256": "6d2dcd99a9d06701f28c92e7b2f613f793797657cf0dd55ef00f3366c70937dd",
+  "version": 9,
+  "payload_sha256": "7f5e6645329fe65acf5523561913d842a1392d24b7803eafbbfe741e81dfa396",
   "policy": "First source wins each complete app; only the first source supplies global groups; category names are unioned in priority order.",
   "sources": [
     {
@@ -12,16 +12,16 @@
       "ref": "main",
       "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
       "authorization_record": "licenses/Lin-arm-permission.md",
-      "commit_sha": "c8bc89601bda7ae8598b3e24cda42b44f7effcc3",
-      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/c8bc89601bda7ae8598b3e24cda42b44f7effcc3/dist/gkd.json5",
+      "commit_sha": "58dd71200d0e297c925ad208a58d4b9da986f4e4",
+      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/58dd71200d0e297c925ad208a58d4b9da986f4e4/dist/gkd.json5",
       "corresponding_source_archive": null,
       "archive_sha256": null,
       "upstream_id": 667,
-      "upstream_version": 639,
-      "sha256": "13fef088852b55bcfc4001cb1b7e8b36ceaf7143c739145ab3335770be206ab6",
-      "app_count": 1007,
+      "upstream_version": 640,
+      "sha256": "827425bb2db037afb2b09f180bbe4c06be9ece396fed10681c2af7b6f633ad5e",
+      "app_count": 1008,
       "global_group_count": 3,
-      "contributed_apps": 1007,
+      "contributed_apps": 1008,
       "skipped_apps": 0
     },
     {
@@ -685,6 +685,7 @@
     "com.mygolbs.mybus": "lin",
     "com.mymoney": "gan",
     "com.myzaker.ZAKER_Phone": "lin",
+    "com.mzk.android": "lin",
     "com.nasoft.socmark": "lin",
     "com.ncatC200000V260710.T000218": "lin",
     "com.netease.android.cloudgame": "lin",
@@ -1149,8 +1150,8 @@
     "zhongxinjiantou.szkingdom.android.newphone": "lin",
     "zte.com.market": "lin"
   },
-  "app_count": 1065,
-  "app_group_count": 2586,
+  "app_count": 1066,
+  "app_group_count": 2591,
   "global_group_count": 3,
   "warnings": [
     "gan.apps[com.kuangxiangciweimao.novel].groups[key=5].rules[0]: missing actionCdKey [2]; preserved upstream behavior",
