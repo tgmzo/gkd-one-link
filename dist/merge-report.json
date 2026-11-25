@@ -1,7 +1,7 @@
 {
   "subscription_id": 199427417,
-  "version": 12,
-  "payload_sha256": "4572fb2f4437d8ede643d5791b5845519f765df6f61e40a427af64395ed02a30",
+  "version": 13,
+  "payload_sha256": "0143488a4022663576d4e824a1c32e654a3616e29e5f72da3ab3ab8580e6aaa2",
   "policy": "First source wins each complete app; only the first source supplies global groups; category names are unioned in priority order.",
   "sources": [
     {
@@ -12,16 +12,16 @@
       "ref": "main",
       "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
       "authorization_record": "licenses/Lin-arm-permission.md",
-      "commit_sha": "204145ba82e1c47bc26f0743f8f4b670db167e7b",
-      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/204145ba82e1c47bc26f0743f8f4b670db167e7b/dist/gkd.json5",
+      "commit_sha": "f17adf25adea93d2d5b20c8268c6f757e851a1d7",
+      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/f17adf25adea93d2d5b20c8268c6f757e851a1d7/dist/gkd.json5",
       "corresponding_source_archive": null,
       "archive_sha256": null,
       "upstream_id": 667,
-      "upstream_version": 643,
-      "sha256": "1674e5540ad0ca114f2d0a4a75c59342e717b1fe2be11c75bffd4b1eba6d24ae",
-      "app_count": 1011,
+      "upstream_version": 644,
+      "sha256": "92e025ea9e951b4c0c46a92d8c51cd5493d1b6021623f5da9ee5088857034bd5",
+      "app_count": 1012,
       "global_group_count": 3,
-      "contributed_apps": 1011,
+      "contributed_apps": 1012,
       "skipped_apps": 0
     },
     {
@@ -354,6 +354,7 @@
     "com.douban.frodo": "lin",
     "com.doudoubird.weather": "lin",
     "com.dragon.read": "lin",
+    "com.dragon.read.oversea.gp": "lin",
     "com.dsm.secondlock": "lin",
     "com.dtdream.publictransit": "lin",
     "com.dubox.drive": "lin",
@@ -1153,8 +1154,8 @@
     "zhongxinjiantou.szkingdom.android.newphone": "lin",
     "zte.com.market": "lin"
   },
-  "app_count": 1069,
-  "app_group_count": 2598,
+  "app_count": 1070,
+  "app_group_count": 2600,
   "global_group_count": 3,
   "warnings": [
     "gan.apps[com.kuangxiangciweimao.novel].groups[key=5].rules[0]: missing actionCdKey [2]; preserved upstream behavior",
