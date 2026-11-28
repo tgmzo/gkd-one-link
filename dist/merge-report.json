@@ -1,7 +1,7 @@
 {
   "subscription_id": 199427417,
-  "version": 15,
-  "payload_sha256": "88daeb871f5c225bf4f8cbd6c551452a1bb512cf1383ec3e6c719deb5ac6f3b8",
+  "version": 16,
+  "payload_sha256": "d48c12f99cd7deb552ebc7a38ccdeba2422c6e47cfda9c4d2b351583d20b72ee",
   "policy": "First source wins each complete app; only the first source supplies global groups; category names are unioned in priority order.",
   "sources": [
     {
@@ -12,13 +12,13 @@
       "ref": "main",
       "license": "Project authorization supplied by maintainer; see licenses/Lin-arm-permission.md",
       "authorization_record": "licenses/Lin-arm-permission.md",
-      "commit_sha": "caad668ac5d21d80037b86954335cd06fd61e142",
-      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/caad668ac5d21d80037b86954335cd06fd61e142/dist/gkd.json5",
+      "commit_sha": "a16813b1228e75b70474f141e3456f948f15bfbd",
+      "resolved_url": "https://raw.githubusercontent.com/Lin-arm/GKD_subscription/a16813b1228e75b70474f141e3456f948f15bfbd/dist/gkd.json5",
       "corresponding_source_archive": null,
       "archive_sha256": null,
       "upstream_id": 667,
-      "upstream_version": 646,
-      "sha256": "01d58bd1ecae3ddbee8112990539de80be9e6fb74b6938460bd3dda304e42dd0",
+      "upstream_version": 647,
+      "sha256": "652b661eb2c4939e87004231ac45c36378edcdfacfd290c1d26c7e0cbfef8b1a",
       "app_count": 1013,
       "global_group_count": 3,
       "contributed_apps": 1013,
@@ -1156,7 +1156,7 @@
     "zte.com.market": "lin"
   },
   "app_count": 1071,
-  "app_group_count": 2610,
+  "app_group_count": 2612,
   "global_group_count": 3,
   "warnings": [
     "gan.apps[com.kuangxiangciweimao.novel].groups[key=5].rules[0]: missing actionCdKey [2]; preserved upstream behavior",
